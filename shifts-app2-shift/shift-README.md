@@ -1,9 +1,9 @@
 
 1 Create project, please run the following command:
-$ helm create shiftchart
+$ helm create shiftchart 
 
 2 Test by dry run:
-Modify the values.yaml and update the docker image of server and port ENV (we use ENV to figure out the URL/username/password for connecting to the database) etc, then run the following command:
+Modify the values.yaml and update the docker image of server and port ENV (we use ENV to figure out the URL/username/password for connecting to the database) etc, then run the following command: 
 
 $ helm install --dry-run --debug ./shiftchart
 
